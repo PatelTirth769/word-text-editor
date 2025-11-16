@@ -1,0 +1,137 @@
+/* ULTIMATE CURSOR AND TEXT BOUNDARY LOCK - Prevent cursor and text from going outside A4 */
+.ProseMirror .document-page .ProseMirror {
+  position: absolute !important;
+  top: 20mm !important;
+  left: 20mm !important;
+  right: 20mm !important;
+  bottom: 20mm !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  height: calc(297mm - 40mm) !important;
+  max-height: calc(297mm - 40mm) !important;
+  min-height: calc(297mm - 40mm) !important;
+  width: calc(210mm - 40mm) !important;
+  max-width: calc(210mm - 40mm) !important;
+  box-sizing: border-box !important;
+  isolation: isolate !important;
+  clip-path: inset(0 0 0 0) !important;
+  display: block !important;
+}
+
+/* Force first element to start at absolute top */
+.ProseMirror .document-page .ProseMirror > *:first-child {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  display: block !important;
+}
+
+/* Lock all content elements to prevent any movement */
+.ProseMirror .document-page .ProseMirror > * {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  overflow: visible !important;
+  contain: layout !important;
+  display: block !important;
+}
+
+/* CURSOR BOUNDARY PROTECTION - Prevent cursor from going outside */
+.ProseMirror .document-page .ProseMirror .ProseMirror-cursor,
+.ProseMirror .document-page .ProseMirror .ProseMirror-selection,
+.ProseMirror .document-page .ProseMirror .ProseMirror-selectionnode {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  overflow: visible !important;
+  contain: layout !important;
+  display: block !important;
+}
+
+/* TEXT BOUNDARY PROTECTION - Force all text to stay within bounds */
+.ProseMirror .document-page .ProseMirror p,
+.ProseMirror .document-page .ProseMirror h1,
+.ProseMirror .document-page .ProseMirror h2,
+.ProseMirror .document-page .ProseMirror h3,
+.ProseMirror .document-page .ProseMirror h4,
+.ProseMirror .document-page .ProseMirror h5,
+.ProseMirror .document-page .ProseMirror h6,
+.ProseMirror .document-page .ProseMirror div,
+.ProseMirror .document-page .ProseMirror span,
+.ProseMirror .document-page .ProseMirror strong,
+.ProseMirror .document-page .ProseMirror em,
+.ProseMirror .document-page .ProseMirror u,
+.ProseMirror .document-page .ProseMirror code {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  line-height: normal !important;
+  display: block !important;
+  overflow: visible !important;
+  contain: layout !important;
+}
+
+/* ULTIMATE BOUNDARY LOCK - Prevent any element from escaping */
+.ProseMirror .document-page .ProseMirror * {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
+  box-sizing: border-box !important;
+  contain: layout !important;
+  overflow: visible !important;
+  clip-path: none !important;
+  isolation: auto !important;
+  display: block !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

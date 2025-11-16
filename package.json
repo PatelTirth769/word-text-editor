@@ -1,0 +1,34 @@
+{
+  "name": "word-like-editor",
+  "version": "1.0.0",
+  "description": "A comprehensive Word-like text editor with Next.js frontend and Node.js backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cross-env PORT=5000 npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend -- -p 3000",
+    "build": "npm run build:frontend",
+    "build:frontend": "npm run build --prefix frontend",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "npm run start --prefix backend",
+    "start:frontend": "npm run start --prefix frontend",
+    "install:all": "npm install && npm install --prefix frontend && npm install --prefix backend"
+  },
+  "keywords": ["text-editor", "word", "nextjs", "nodejs", "tiptap"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3"
+  }
+}
+
+
+
+
+
+
+
+
+
+

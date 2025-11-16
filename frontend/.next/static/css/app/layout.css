@@ -1,0 +1,4123 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}/*
+! tailwindcss v3.4.18 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: Inter, system-ui, sans-serif; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: Fira Code, monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity, 1));
+}
+.container {
+  width: 100%;
+}
+@media (min-width: 640px) {
+
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+
+  .container {
+    max-width: 1536px;
+  }
+}
+.pointer-events-none {
+  pointer-events: none;
+}
+.visible {
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
+}
+.collapse {
+  visibility: collapse;
+}
+.fixed {
+  position: fixed;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.inset-0 {
+  inset: 0px;
+}
+.inset-x-0 {
+  left: 0px;
+  right: 0px;
+}
+.inset-y-0 {
+  top: 0px;
+  bottom: 0px;
+}
+.bottom-0 {
+  bottom: 0px;
+}
+.bottom-2 {
+  bottom: 0.5rem;
+}
+.bottom-full {
+  bottom: 100%;
+}
+.left-0 {
+  left: 0px;
+}
+.left-1\/2 {
+  left: 50%;
+}
+.right-0 {
+  right: 0px;
+}
+.right-2 {
+  right: 0.5rem;
+}
+.right-4 {
+  right: 1rem;
+}
+.top-0 {
+  top: 0px;
+}
+.top-16 {
+  top: 4rem;
+}
+.top-2 {
+  top: 0.5rem;
+}
+.top-4 {
+  top: 1rem;
+}
+.top-8 {
+  top: 2rem;
+}
+.top-\[72px\] {
+  top: 72px;
+}
+.top-full {
+  top: 100%;
+}
+.isolate {
+  isolation: isolate;
+}
+.z-0 {
+  z-index: 0;
+}
+.z-10 {
+  z-index: 10;
+}
+.z-40 {
+  z-index: 40;
+}
+.z-50 {
+  z-index: 50;
+}
+.z-\[100\] {
+  z-index: 100;
+}
+.z-\[60\] {
+  z-index: 60;
+}
+.m-4 {
+  margin: 1rem;
+}
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.mx-\[-7px\] {
+  margin-left: -7px;
+  margin-right: -7px;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.ml-0 {
+  margin-left: 0px;
+}
+.ml-2 {
+  margin-left: 0.5rem;
+}
+.ml-96 {
+  margin-left: 24rem;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.mr-1 {
+  margin-right: 0.25rem;
+}
+.mr-2 {
+  margin-right: 0.5rem;
+}
+.mt-0\.5 {
+  margin-top: 0.125rem;
+}
+.mt-1 {
+  margin-top: 0.25rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mt-3 {
+  margin-top: 0.75rem;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.mt-8 {
+  margin-top: 2rem;
+}
+.mt-\[10px\] {
+  margin-top: 10px;
+}
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+.block {
+  display: block;
+}
+.inline {
+  display: inline;
+}
+.flex {
+  display: flex;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.table {
+  display: table;
+}
+.grid {
+  display: grid;
+}
+.hidden {
+  display: none;
+}
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+.h-1 {
+  height: 0.25rem;
+}
+.h-10 {
+  height: 2.5rem;
+}
+.h-12 {
+  height: 3rem;
+}
+.h-14 {
+  height: 3.5rem;
+}
+.h-24 {
+  height: 6rem;
+}
+.h-3 {
+  height: 0.75rem;
+}
+.h-4 {
+  height: 1rem;
+}
+.h-5 {
+  height: 1.25rem;
+}
+.h-6 {
+  height: 1.5rem;
+}
+.h-8 {
+  height: 2rem;
+}
+.h-\[32px\] {
+  height: 32px;
+}
+.h-\[52px\] {
+  height: 52px;
+}
+.h-\[6px\] {
+  height: 6px;
+}
+.h-\[calc\(100vh-4rem\)\] {
+  height: calc(100vh - 4rem);
+}
+.h-full {
+  height: 100%;
+}
+.h-px {
+  height: 1px;
+}
+.h-screen {
+  height: 100vh;
+}
+.max-h-60 {
+  max-height: 15rem;
+}
+.max-h-96 {
+  max-height: 24rem;
+}
+.max-h-\[400px\] {
+  max-height: 400px;
+}
+.max-h-\[90vh\] {
+  max-height: 90vh;
+}
+.max-h-full {
+  max-height: 100%;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.w-0 {
+  width: 0px;
+}
+.w-12 {
+  width: 3rem;
+}
+.w-14 {
+  width: 3.5rem;
+}
+.w-20 {
+  width: 5rem;
+}
+.w-3 {
+  width: 0.75rem;
+}
+.w-4 {
+  width: 1rem;
+}
+.w-5 {
+  width: 1.25rem;
+}
+.w-6 {
+  width: 1.5rem;
+}
+.w-64 {
+  width: 16rem;
+}
+.w-8 {
+  width: 2rem;
+}
+.w-80 {
+  width: 20rem;
+}
+.w-96 {
+  width: 24rem;
+}
+.w-\[14px\] {
+  width: 14px;
+}
+.w-\[280px\] {
+  width: 280px;
+}
+.w-\[360px\] {
+  width: 360px;
+}
+.w-full {
+  width: 100%;
+}
+.w-px {
+  width: 1px;
+}
+.min-w-0 {
+  min-width: 0px;
+}
+.min-w-32 {
+  min-width: 8rem;
+}
+.min-w-48 {
+  min-width: 12rem;
+}
+.min-w-64 {
+  min-width: 16rem;
+}
+.min-w-\[160px\] {
+  min-width: 160px;
+}
+.min-w-\[60px\] {
+  min-width: 60px;
+}
+.max-w-2xl {
+  max-width: 42rem;
+}
+.max-w-4xl {
+  max-width: 56rem;
+}
+.max-w-\[210mm\] {
+  max-width: 210mm;
+}
+.max-w-\[90vw\] {
+  max-width: 90vw;
+}
+.max-w-md {
+  max-width: 28rem;
+}
+.max-w-none {
+  max-width: none;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+.border-collapse {
+  border-collapse: collapse;
+}
+.origin-top {
+  transform-origin: top;
+}
+.-translate-x-1\/2 {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.rotate-180 {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+@keyframes spin {
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+.cursor-col-resize {
+  cursor: col-resize;
+}
+.cursor-default {
+  cursor: default;
+}
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.resize {
+  resize: both;
+}
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+.grid-cols-8 {
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-end {
+  align-items: flex-end;
+}
+.items-center {
+  align-items: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.gap-1 {
+  gap: 0.25rem;
+}
+.gap-1\.5 {
+  gap: 0.375rem;
+}
+.gap-2 {
+  gap: 0.5rem;
+}
+.gap-3 {
+  gap: 0.75rem;
+}
+.gap-4 {
+  gap: 1rem;
+}
+.gap-6 {
+  gap: 1.5rem;
+}
+.space-x-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+.overflow-auto {
+  overflow: auto;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-y-auto {
+  overflow-y: auto;
+}
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.rounded-md {
+  border-radius: 0.375rem;
+}
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+.rounded-l {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+.rounded-r {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+.border {
+  border-width: 1px;
+}
+.border-0 {
+  border-width: 0px;
+}
+.border-2 {
+  border-width: 2px;
+}
+.border-b {
+  border-bottom-width: 1px;
+}
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+.border-l {
+  border-left-width: 1px;
+}
+.border-r {
+  border-right-width: 1px;
+}
+.border-r-2 {
+  border-right-width: 2px;
+}
+.border-t {
+  border-top-width: 1px;
+}
+.border-dashed {
+  border-style: dashed;
+}
+.border-none {
+  border-style: none;
+}
+.border-blue-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(191 219 254 / var(--tw-border-opacity, 1));
+}
+.border-blue-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(96 165 250 / var(--tw-border-opacity, 1));
+}
+.border-blue-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(59 130 246 / var(--tw-border-opacity, 1));
+}
+.border-gray-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
+}
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
+}
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity, 1));
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+.bg-blue-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 234 254 / var(--tw-bg-opacity, 1));
+}
+.bg-blue-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity, 1));
+}
+.bg-blue-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 246 255 / var(--tw-bg-opacity, 1));
+}
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
+}
+.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
+}
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+}
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
+}
+.bg-gray-300\/80 {
+  background-color: rgb(209 213 219 / 0.8);
+}
+.bg-gray-400\/50 {
+  background-color: rgb(156 163 175 / 0.5);
+}
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
+}
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity, 1));
+}
+.bg-green-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 252 231 / var(--tw-bg-opacity, 1));
+}
+.bg-green-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 253 244 / var(--tw-bg-opacity, 1));
+}
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity, 1));
+}
+.bg-green-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity, 1));
+}
+.bg-purple-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 232 255 / var(--tw-bg-opacity, 1));
+}
+.bg-purple-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(168 85 247 / var(--tw-bg-opacity, 1));
+}
+.bg-red-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 226 226 / var(--tw-bg-opacity, 1));
+}
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity, 1));
+}
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.bg-yellow-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
+}
+.bg-opacity-0 {
+  --tw-bg-opacity: 0;
+}
+.bg-opacity-30 {
+  --tw-bg-opacity: 0.3;
+}
+.bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
+}
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.p-0 {
+  padding: 0px;
+}
+.p-0\.5 {
+  padding: 0.125rem;
+}
+.p-1 {
+  padding: 0.25rem;
+}
+.p-1\.5 {
+  padding: 0.375rem;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.p-3 {
+  padding: 0.75rem;
+}
+.p-4 {
+  padding: 1rem;
+}
+.p-6 {
+  padding: 1.5rem;
+}
+.p-8 {
+  padding: 2rem;
+}
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.py-1\.5 {
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+.pb-4 {
+  padding-bottom: 1rem;
+}
+.pl-2 {
+  padding-left: 0.5rem;
+}
+.pt-16 {
+  padding-top: 4rem;
+}
+.pt-2 {
+  padding-top: 0.5rem;
+}
+.pt-20 {
+  padding-top: 5rem;
+}
+.pt-3 {
+  padding-top: 0.75rem;
+}
+.pt-4 {
+  padding-top: 1rem;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.text-\[11px\] {
+  font-size: 11px;
+}
+.text-\[8px\] {
+  font-size: 8px;
+}
+.text-\[9px\] {
+  font-size: 9px;
+}
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.italic {
+  font-style: italic;
+}
+.leading-none {
+  line-height: 1;
+}
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+.text-blue-400 {
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity, 1));
+}
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
+}
+.text-blue-600 {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity, 1));
+}
+.text-blue-700 {
+  --tw-text-opacity: 1;
+  color: rgb(29 78 216 / var(--tw-text-opacity, 1));
+}
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
+}
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+}
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity, 1));
+}
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
+}
+.text-gray-800 {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity, 1));
+}
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity, 1));
+}
+.text-green-600 {
+  --tw-text-opacity: 1;
+  color: rgb(22 163 74 / var(--tw-text-opacity, 1));
+}
+.text-green-700 {
+  --tw-text-opacity: 1;
+  color: rgb(21 128 61 / var(--tw-text-opacity, 1));
+}
+.text-indigo-600 {
+  --tw-text-opacity: 1;
+  color: rgb(79 70 229 / var(--tw-text-opacity, 1));
+}
+.text-orange-600 {
+  --tw-text-opacity: 1;
+  color: rgb(234 88 12 / var(--tw-text-opacity, 1));
+}
+.text-purple-600 {
+  --tw-text-opacity: 1;
+  color: rgb(147 51 234 / var(--tw-text-opacity, 1));
+}
+.text-purple-700 {
+  --tw-text-opacity: 1;
+  color: rgb(126 34 206 / var(--tw-text-opacity, 1));
+}
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
+}
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity, 1));
+}
+.text-red-700 {
+  --tw-text-opacity: 1;
+  color: rgb(185 28 28 / var(--tw-text-opacity, 1));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+.underline {
+  text-decoration-line: underline;
+}
+.line-through {
+  text-decoration-line: line-through;
+}
+.opacity-0 {
+  opacity: 0;
+}
+.opacity-50 {
+  opacity: 0.5;
+}
+.opacity-70 {
+  opacity: 0.7;
+}
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-sm {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.ring-2 {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.ring-blue-500 {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity, 1));
+}
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-200 {
+  transition-duration: 200ms;
+}
+.text-shadow {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+
+/* TipTap Editor Styles */
+.ProseMirror {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  max-width: 210mm;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden !important;
+  height: auto !important;
+  min-height: auto !important;
+}
+
+.ProseMirror p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: #adb5bd;
+  pointer-events: none;
+  height: 0;
+}
+
+.ProseMirror .is-empty::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: #adb5bd;
+  pointer-events: none;
+  height: 0;
+}
+
+/* Selection styles */
+.ProseMirror .selectedCell:after {
+  z-index: 2;
+  position: absolute;
+  content: "";
+  left: 0; right: 0; top: 0; bottom: 0;
+  background: rgba(200, 200, 255, 0.4);
+  pointer-events: none;
+}
+
+.ProseMirror .column-resize-handle {
+  position: absolute;
+  right: -2px;
+  top: 0;
+  bottom: -2px;
+  width: 4px;
+  background-color: #adf;
+  pointer-events: none;
+}
+
+.ProseMirror.resize-cursor {
+  cursor: ew-resize;
+  cursor: col-resize;
+}
+
+/* Table styles */
+.ProseMirror table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Ensure tables inside pages render borders */
+.ProseMirror .document-page table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #cbd5e1; /* slate-300 */
+  background: #ffffff;
+}
+
+.ProseMirror .document-page th,
+.ProseMirror .document-page td {
+  border: 1px solid #cbd5e1; /* slate-300 */
+  padding: 6px;
+}
+
+.ProseMirror .document-page th {
+  background: #f1f5f9; /* slate-100 */
+  font-weight: 600;
+}
+
+/* Table Style Classes - Plain Tables (make each distinct) */
+.ProseMirror table.table-style-plain-1 th,
+.ProseMirror table.table-style-plain-1 td {
+  border: 1px solid #c9c9c9;
+  padding: 8px;
+  background: #ffffff;
+}
+
+.ProseMirror table.table-style-plain-2 th,
+.ProseMirror table.table-style-plain-2 td {
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  border-left: none;
+  border-right: none;
+  padding: 8px;
+  background: #ffffff;
+}
+
+.ProseMirror table.table-style-plain-3 th {
+  font-weight: 700;
+  border-bottom: 2px solid #9ca3af;
+  background: #f3f4f6;
+}
+.ProseMirror table.table-style-plain-3 td {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 8px;
+  background: #ffffff;
+}
+
+/* keep 4 as outer border only look */
+.ProseMirror table.table-style-plain-4 {
+  border: 1px solid #bdbdbd;
+}
+.ProseMirror table.table-style-plain-4 th,
+.ProseMirror table.table-style-plain-4 td {
+  padding: 8px;
+  border: none;
+}
+.ProseMirror table.table-style-plain-4 tr + tr th,
+.ProseMirror table.table-style-plain-4 tr + tr td { /* subtle row separators */
+  border-top: 1px dotted #d1d5db;
+}
+
+/* subtle shaded */
+.ProseMirror table.table-style-plain-5 th,
+.ProseMirror table.table-style-plain-5 td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: #fafafa;
+}
+
+/* borderless clean */
+.ProseMirror table.table-style-plain-6 th,
+.ProseMirror table.table-style-plain-6 td {
+  padding: 8px;
+  border: none;
+  background: #ffffff;
+}
+
+/* striped rows by default */
+.ProseMirror table.table-style-plain-7 th,
+.ProseMirror table.table-style-plain-7 td {
+  border: 1px solid #e5e7eb;
+  padding: 8px;
+}
+.ProseMirror table.table-style-plain-7 tbody tr:nth-child(odd) td { /* base zebra */
+  background: #fafafa;
+}
+
+/* Grid Tables - ensure distinct palettes */
+.ProseMirror table.table-style-grid-1 th,
+.ProseMirror table.table-style-grid-1 td {
+  border: 1px solid #9ca3af;
+  padding: 8px;
+}
+.ProseMirror table.table-style-grid-1 th { background:#f3f4f6; font-weight:700; }
+
+.ProseMirror table.table-style-grid-2 th { background:#4472c4; color:#fff; border:1px solid #4472c4; padding:8px; font-weight:700; }
+.ProseMirror table.table-style-grid-2 td { border:1px solid #b6c4df; padding:8px; background:#f8fbff; }
+
+.ProseMirror table.table-style-grid-3 th { background:#2f5597; color:#fff; border:1px solid #2f5597; padding:8px; font-weight:700; }
+.ProseMirror table.table-style-grid-3 td { border:1px solid #2f5597; padding:8px; background:#e6effa; }
+
+.ProseMirror table.table-style-grid-4 th { background:#1f4e79; color:#fff; border:1px solid #1f4e79; padding:8px; font-weight:700; }
+.ProseMirror table.table-style-grid-4 td { border:1px solid #9db9d5; padding:8px; }
+.ProseMirror table.table-style-grid-4 tbody tr:nth-child(even) td { background:#eef3fb; }
+
+.ProseMirror table.table-style-grid-5 { background:#2d3e50; }
+.ProseMirror table.table-style-grid-5 th { background:#2d3e50; color:#fff; border:1px solid #2d3e50; padding:8px; font-weight:700; }
+.ProseMirror table.table-style-grid-5 td { border:1px solid #444; padding:8px; color:#fff; background:#2d3e50; }
+
+.ProseMirror table.table-style-grid-6 th { background:#ed7d31; color:#fff; border:1px solid #ed7d31; padding:8px; font-weight:700; }
+.ProseMirror table.table-style-grid-6 td { border:1px solid #f2a36f; padding:8px; }
+.ProseMirror table.table-style-grid-6 tbody tr:nth-child(even) td { background:#fff4e6; }
+
+.ProseMirror table.table-style-grid-7 th { background:#a5a5a5; color:#fff; border:1px solid #a5a5a5; padding:8px; font-weight:700; }
+.ProseMirror table.table-style-grid-7 td { border:1px solid #cfcfcf; padding:8px; }
+.ProseMirror table.table-style-grid-7 tbody tr:nth-child(odd) td { background:#f5f5f5; }
+
+.ProseMirror table.table-style-grid-8 th { background:#ffc000; color:#333; border:1px solid #ffc000; padding:8px; font-weight:700; }
+.ProseMirror table.table-style-grid-8 td { border:1px solid #ffdd66; padding:8px; }
+.ProseMirror table.table-style-grid-8 tbody tr:nth-child(even) td { background:#fff8e6; }
+
+.ProseMirror table.table-style-grid-9 th { background:#5b9bd5; color:#fff; border:1px solid #5b9bd5; padding:8px; font-weight:700; }
+.ProseMirror table.table-style-grid-9 td { border:1px solid #5b9bd5; padding:8px; background:#ffffff; }
+.ProseMirror table.table-style-grid-9 tbody tr:nth-child(odd) td { background:#e9f2fb; }
+
+.ProseMirror table.table-style-grid-10 th { background:#70ad47; color:#fff; border:1px solid #70ad47; padding:8px; font-weight:700; }
+.ProseMirror table.table-style-grid-10 td { border:1px solid #70ad47; padding:8px; }
+.ProseMirror table.table-style-grid-10 tbody tr:nth-child(even) td { background:#e2efda; }
+
+/* full-row themes */
+.ProseMirror table.table-style-grid-11 th,
+.ProseMirror table.table-style-grid-11 td { background:#e6effa; color:#1f3b63; border:1px solid #5b9bd5; padding:8px; }
+.ProseMirror table.table-style-grid-12 th,
+.ProseMirror table.table-style-grid-12 td { background:#eaf3e6; color:#214121; border:1px solid #70ad47; padding:8px; }
+.ProseMirror table.table-style-grid-13 th,
+.ProseMirror table.table-style-grid-13 td { background:#efefef; color:#333; border:1px solid #a5a5a5; padding:8px; }
+.ProseMirror table.table-style-grid-14 th,
+.ProseMirror table.table-style-grid-14 td { background:#fff4cc; color:#5a4300; border:1px solid #ffc000; padding:8px; }
+
+/* List Tables - each variant distinct */
+.ProseMirror table.table-style-list-1 th { border-bottom: 3px solid #111827; background:#f4f4f4; padding:8px; font-weight:700; }
+.ProseMirror table.table-style-list-1 td { border-bottom:1px solid #d1d5db; padding:8px; }
+
+.ProseMirror table.table-style-list-2 th { border-bottom:3px solid #4472c4; background:#4472c4; color:#fff; padding:8px; font-weight:700; }
+.ProseMirror table.table-style-list-2 td { border-bottom:1px solid #cbd5e1; padding:8px; background:#f8fbff; }
+
+.ProseMirror table.table-style-list-3 th { border-bottom:2px dashed #6b7280; padding:8px; font-weight:700; background:#ffffff; }
+.ProseMirror table.table-style-list-3 td { border-bottom:1px dashed #d1d5db; padding:8px; }
+
+.ProseMirror table.table-style-list-4 th { border-bottom:3px solid #ed7d31; background:#ed7d31; color:#fff; padding:8px; font-weight:700; }
+.ProseMirror table.table-style-list-4 td { border-bottom:1px solid #f2a36f; padding:8px; }
+
+.ProseMirror table.table-style-list-5 th { border-bottom:3px solid #a5a5a5; background:#a5a5a5; color:#fff; padding:8px; font-weight:700; }
+.ProseMirror table.table-style-list-5 td { border-bottom:1px solid #d1d5db; padding:8px; background:#fafafa; }
+
+.ProseMirror table.table-style-list-6 th { border-bottom:3px solid #5b9bd5; background:#5b9bd5; color:#fff; padding:8px; font-weight:700; }
+.ProseMirror table.table-style-list-6 td { border-bottom:1px solid #cfe3f6; padding:8px; }
+
+.ProseMirror table.table-style-list-7 th { border-bottom:3px solid #70ad47; background:#70ad47; color:#fff; padding:8px; font-weight:700; }
+.ProseMirror table.table-style-list-7 td { border-bottom:1px solid #cbe8b5; padding:8px; }
+
+.ProseMirror table.table-style-list-8 th { border-bottom:3px solid #ffc000; background:#ffc000; color:#333; padding:8px; font-weight:700; }
+.ProseMirror table.table-style-list-8 td { border-bottom:1px solid #ffe28a; padding:8px; }
+
+/* full-row list themes */
+.ProseMirror table.table-style-list-9 th,
+.ProseMirror table.table-style-list-9 td { background:#e6effa; color:#1f3b63; padding:8px; border-bottom:1px solid #5b9bd5; }
+.ProseMirror table.table-style-list-10 th,
+.ProseMirror table.table-style-list-10 td { background:#eaf3e6; color:#214121; padding:8px; border-bottom:1px solid #70ad47; }
+.ProseMirror table.table-style-list-11 th,
+.ProseMirror table.table-style-list-11 td { background:#efefef; color:#333; padding:8px; border-bottom:1px solid #a5a5a5; }
+.ProseMirror table.table-style-list-12 th,
+.ProseMirror table.table-style-list-12 td { background:#fff4cc; color:#5a4300; padding:8px; border-bottom:1px solid #ffc000; }
+
+/* Table Style Preview Styles (for gallery thumbnails) - make styles work for previews too */
+table.table-style-plain-1,
+table.table-style-plain-2,
+table.table-style-plain-3,
+table.table-style-plain-4,
+table.table-style-plain-5,
+table.table-style-plain-6,
+table.table-style-grid-1,
+table.table-style-grid-2,
+table.table-style-grid-3,
+table.table-style-grid-4,
+table.table-style-grid-5,
+table.table-style-grid-6,
+table.table-style-grid-7,
+table.table-style-grid-8,
+table.table-style-grid-9,
+table.table-style-grid-10,
+table.table-style-list-1,
+table.table-style-list-2,
+table.table-style-list-3,
+table.table-style-list-4,
+table.table-style-list-5,
+table.table-style-list-6,
+table.table-style-list-7,
+table.table-style-list-8 {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 80px;
+  height: 40px;
+  font-size: 8px;
+  line-height: 1;
+}
+
+table.table-style-plain-1 th,
+table.table-style-plain-1 td,
+table.table-style-plain-2 th,
+table.table-style-plain-2 td,
+table.table-style-plain-3 th,
+table.table-style-plain-3 td,
+table.table-style-plain-4 th,
+table.table-style-plain-4 td,
+table.table-style-plain-5 th,
+table.table-style-plain-5 td,
+table.table-style-plain-6 th,
+table.table-style-plain-6 td {
+  padding: 2px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+table.table-style-grid-1 th,
+table.table-style-grid-1 td,
+table.table-style-grid-2 th,
+table.table-style-grid-2 td,
+table.table-style-grid-3 th,
+table.table-style-grid-3 td,
+table.table-style-grid-4 th,
+table.table-style-grid-4 td,
+table.table-style-grid-5 th,
+table.table-style-grid-5 td,
+table.table-style-grid-6 th,
+table.table-style-grid-6 td,
+table.table-style-grid-7 th,
+table.table-style-grid-7 td,
+table.table-style-grid-8 th,
+table.table-style-grid-8 td,
+table.table-style-grid-9 th,
+table.table-style-grid-9 td,
+table.table-style-grid-10 th,
+table.table-style-grid-10 td {
+  padding: 2px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+table.table-style-list-1 th,
+table.table-style-list-1 td,
+table.table-style-list-2 th,
+table.table-style-list-2 td,
+table.table-style-list-3 th,
+table.table-style-list-3 td,
+table.table-style-list-4 th,
+table.table-style-list-4 td,
+table.table-style-list-5 th,
+table.table-style-list-5 td,
+table.table-style-list-6 th,
+table.table-style-list-6 td,
+table.table-style-list-7 th,
+table.table-style-list-7 td,
+table.table-style-list-8 th,
+table.table-style-list-8 td {
+  padding: 2px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Table Style Options */
+.ProseMirror table.table-banded-rows tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+.ProseMirror table.table-header-row tr:first-child th,
+.ProseMirror table.table-header-row tr:first-child td {
+  background-color: #f1f5f9;
+  font-weight: bold;
+}
+
+.ProseMirror table.table-total-row tr:last-child th,
+.ProseMirror table.table-total-row tr:last-child td {
+  background-color: #f1f5f9;
+  font-weight: bold;
+  border-top: 2px solid #444;
+}
+
+.ProseMirror table.table-first-column td:first-child,
+.ProseMirror table.table-first-column th:first-child {
+  background-color: #f1f5f9;
+  font-weight: bold;
+}
+
+.ProseMirror table.table-last-column td:last-child,
+.ProseMirror table.table-last-column th:last-child {
+  background-color: #f1f5f9;
+  font-weight: bold;
+}
+
+.ProseMirror table.table-banded-columns td:nth-child(even),
+.ProseMirror table.table-banded-columns th:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.ProseMirror table td,
+.ProseMirror table th {
+  vertical-align: top;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.ProseMirror table td > *,
+.ProseMirror table th > * {
+  margin-bottom: 0;
+}
+
+.ProseMirror table th {
+  font-weight: bold;
+  text-align: left;
+  background-color: #f1f3f4;
+}
+
+.ProseMirror table .selectedCell:after {
+  z-index: 2;
+  position: absolute;
+  content: "";
+  left: 0; right: 0; top: 0; bottom: 0;
+  background: rgba(200, 200, 255, 0.4);
+  pointer-events: none;
+}
+
+.ProseMirror table .column-resize-handle {
+  position: absolute;
+  right: -2px;
+  top: 0;
+  bottom: -2px;
+  width: 4px;
+  background-color: #adf;
+  pointer-events: none;
+}
+
+/* Link styles */
+.ProseMirror a {
+  color: #2563eb;
+  text-decoration: underline;
+  text-decoration-color: #2563eb;
+  cursor: pointer;
+  /* Prevent default link behavior - will be handled by JavaScript */
+  pointer-events: auto;
+}
+
+.ProseMirror a:hover {
+  color: #1d4ed8;
+  text-decoration-color: #1d4ed8;
+}
+
+/* Ensure links don't navigate on click - JavaScript will handle it */
+.ProseMirror a[href] {
+  -webkit-user-select: text;
+     -moz-user-select: text;
+          user-select: text;
+}
+
+/* Image styles */
+.ProseMirror img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ProseMirror img.ProseMirror-selectednode {
+  outline: 3px solid #68cef8;
+}
+
+/* Image selection and manipulation overlay styles */
+.image-selection-overlay {
+  position: absolute;
+  border: 1px solid #1a73e8;
+  box-sizing: border-box;
+  pointer-events: none;
+  z-index: 10000;
+}
+
+.image-selection-overlay .resize-handle {
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border: 1px solid #1a73e8;
+  position: absolute;
+  pointer-events: all;
+}
+.image-selection-overlay .resize-handle.tl { top: -4px; left: -4px; cursor: nwse-resize; }
+.image-selection-overlay .resize-handle.tr { top: -4px; right: -4px; cursor: nesw-resize; }
+.image-selection-overlay .resize-handle.bl { bottom: -4px; left: -4px; cursor: nesw-resize; }
+.image-selection-overlay .resize-handle.br { bottom: -4px; right: -4px; cursor: nwse-resize; }
+.image-selection-overlay .resize-handle.tm { top: -4px; left: 50%; transform: translateX(-50%); cursor: ns-resize; }
+.image-selection-overlay .resize-handle.bm { bottom: -4px; left: 50%; transform: translateX(-50%); cursor: ns-resize; }
+.image-selection-overlay .resize-handle.ml { left: -4px; top: 50%; transform: translateY(-50%); cursor: ew-resize; }
+.image-selection-overlay .resize-handle.mr { right: -4px; top: 50%; transform: translateY(-50%); cursor: ew-resize; }
+
+.image-selection-overlay .rotate-handle {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border: 1px solid #1a73e8;
+  border-radius: 50%;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: grab;
+  pointer-events: all;
+}
+
+/* Allow floating images to escape strict content layout (for drag and rotate) */
+.ProseMirror .document-page .ProseMirror img.floating-image.resizable-image {
+  position: absolute !important;
+  max-width: none !important;
+  width: auto;
+  height: auto;
+  z-index: 2;
+  /* Allow transforms for rotation */
+  transform: var(--img-transform, none) !important;
+  transform-origin: center center !important;
+}
+
+/* Image wrapping modes for non-floating images */
+.ProseMirror .document-page img[data-image-wrap="inline"] {
+  float: none;
+  display: inline-block;
+}
+.ProseMirror .document-page img[data-image-wrap="wrap-left"] {
+  float: left;
+  margin: 4px 12px 4px 0;
+  display: block;
+}
+.ProseMirror .document-page img[data-image-wrap="wrap-right"] {
+  float: right;
+  margin: 4px 0 4px 12px;
+  display: block;
+}
+.ProseMirror .document-page img[data-image-wrap="break"] {
+  display: block;
+  clear: both;
+  margin: 8px 0;
+}
+
+/* Image layer control */
+.ProseMirror .document-page img[data-image-layer="behind"] {
+  position: relative;
+  z-index: 0;
+}
+.ProseMirror .document-page img[data-image-layer="front"] {
+  position: relative;
+  z-index: 5;
+}
+
+/* Ensure overlay sits above content area */
+.document-page { position: relative; }
+
+/* Image alignment helpers (non-floating images) */
+.ProseMirror img[data-image-align="center"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ProseMirror img[data-image-align="left"] {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
+.ProseMirror img[data-image-align="right"] {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/* Page break visual (screen) and actual (print) */
+.ProseMirror .page-break {
+  border: none;
+  border-top: 2px dashed #cbd5e1;
+  margin: 1rem 0;
+}
+
+@media print {
+  .ProseMirror .page-break {
+    -moz-column-break-after: page;
+         break-after: page;
+  }
+}
+
+/* Cover Page Block - Proper page structure */
+.ProseMirror .cover-page-block {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: center !important;
+  background: #ffffff !important;
+  min-height: 297mm !important;
+  max-height: 297mm !important;
+  padding: 5mm 20mm 5mm 20mm !important;
+  margin: 0 0 20px 0 !important;
+  position: relative !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  font-family: 'Calibri', 'Arial', sans-serif !important;
+  border: 1px solid #e5e7eb !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+  overflow: hidden !important;
+  z-index: 1 !important;
+}
+
+/* Cover Page Content Styling */
+.ProseMirror .cover-page-block h1 {
+  font-size: 48px !important;
+  font-weight: 700 !important;
+  margin: 0 0 5px 0 !important;
+  line-height: 1.0 !important;
+  color: #000000 !important;
+  text-align: center !important;
+  letter-spacing: -0.5px !important;
+}
+
+.ProseMirror .cover-page-block h3 {
+  font-size: 24px !important;
+  color: #666666 !important;
+  margin: 0 0 5px 0 !important;
+  line-height: 1.0 !important;
+  font-weight: 400 !important;
+  text-align: center !important;
+}
+
+.ProseMirror .cover-page-block p {
+  font-size: 18px !important;
+  margin: 0 0 2px 0 !important;
+  line-height: 1.0 !important;
+  color: #000000 !important;
+  text-align: center !important;
+}
+
+.ProseMirror .cover-page-block p:last-child {
+  font-size: 16px !important;
+  color: #666666 !important;
+  margin: 0 !important;
+}
+
+/* Removed duplicate cover page styling - now handled above */
+
+/* Removed old cover page CSS - now handled by proper page block styling */
+
+/* A4 page block styling */
+.document-page {
+  width: 210mm !important;
+  max-width: 210mm !important;
+  height: 297mm !important;
+  max-height: 297mm !important;
+  min-height: 297mm !important;
+  background: #fff;
+  margin: 16px auto;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  padding: 20mm;
+  display: block;
+  overflow: hidden !important;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* Removed duplicate cover page CSS - now handled above */
+
+/* Removed old cover page CSS - now handled by proper page block styling */
+
+/* Page numbering using CSS counters */
+.ProseMirror {
+  counter-reset: page;
+}
+.document-page::after {
+  counter-increment: page;
+  content: counter(page);
+  position: absolute;
+  bottom: 10mm;
+  right: 20mm;
+  color: #6b7280;
+  font-size: 12px;
+}
+.document-page { position: relative; }
+
+/* List styles */
+.ProseMirror ul,
+.ProseMirror ol {
+  padding-left: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.ProseMirror ul {
+  list-style-type: disc;
+}
+
+.ProseMirror ol {
+  list-style-type: decimal;
+}
+
+.ProseMirror li {
+  display: list-item;
+  margin: 0.25rem 0;
+}
+
+.ProseMirror ul li::marker {
+  content: "•";
+  color: #374151;
+  font-weight: bold;
+}
+
+.ProseMirror ol li::marker {
+  color: #374151;
+  font-weight: bold;
+}
+
+/* Custom bullet styles */
+.ProseMirror ul[data-bullet-style="circle"] li::marker {
+  content: "○";
+}
+
+.ProseMirror ul[data-bullet-style="square"] li::marker {
+  content: "■";
+}
+
+.ProseMirror ul[data-bullet-style="dash"] li::marker {
+  content: "—";
+}
+
+.ProseMirror ul[data-bullet-style="arrow"] li::marker {
+  content: "▶";
+}
+
+.ProseMirror ul[data-bullet-style="star"] li::marker {
+  content: "★";
+}
+
+/* Custom number styles */
+.ProseMirror ol[data-number-style="lower-alpha"] {
+  list-style-type: lower-alpha;
+}
+
+.ProseMirror ol[data-number-style="upper-alpha"] {
+  list-style-type: upper-alpha;
+}
+
+.ProseMirror ol[data-number-style="lower-roman"] {
+  list-style-type: lower-roman;
+}
+
+.ProseMirror ol[data-number-style="upper-roman"] {
+  list-style-type: upper-roman;
+}
+
+.ProseMirror ol[data-number-style="decimal-leading-zero"] {
+  list-style-type: decimal-leading-zero;
+}
+
+/* Alternative approach using CSS classes */
+.ProseMirror ul.bullet-circle li::marker {
+  content: "○";
+}
+
+.ProseMirror ul.bullet-square li::marker {
+  content: "■";
+}
+
+.ProseMirror ul.bullet-dash li::marker {
+  content: "—";
+}
+
+.ProseMirror ul.bullet-arrow li::marker {
+  content: "▶";
+}
+
+.ProseMirror ul.bullet-star li::marker {
+  content: "★";
+}
+
+.ProseMirror ol.number-lower-alpha {
+  list-style-type: lower-alpha;
+}
+
+.ProseMirror ol.number-upper-alpha {
+  list-style-type: upper-alpha;
+}
+
+.ProseMirror ol.number-lower-roman {
+  list-style-type: lower-roman;
+}
+
+.ProseMirror ol.number-upper-roman {
+  list-style-type: upper-roman;
+}
+
+.ProseMirror ol.number-decimal-leading-zero {
+  list-style-type: decimal-leading-zero;
+}
+
+/* Ensure list items are properly displayed */
+.ProseMirror ul li,
+.ProseMirror ol li {
+  list-style-position: outside;
+  padding-left: 0.5rem;
+}
+
+/* Fix for nested lists */
+.ProseMirror ul ul,
+.ProseMirror ol ol,
+.ProseMirror ul ol,
+.ProseMirror ol ul {
+  margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+.ProseMirror ul[data-type="taskList"] {
+  list-style: none;
+  padding: 0;
+}
+
+.ProseMirror ul[data-type="taskList"] li {
+  display: flex;
+  align-items: flex-start;
+}
+
+.ProseMirror ul[data-type="taskList"] li > label {
+  flex: 0 0 auto;
+  margin-right: 0.5rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.ProseMirror ul[data-type="taskList"] li > div {
+  flex: 1 1 auto;
+}
+
+.ProseMirror ul[data-type="taskList"] input[type="checkbox"] {
+  cursor: pointer;
+}
+
+/* Code block styles */
+.ProseMirror pre {
+  white-space: pre-wrap;
+}
+
+.ProseMirror code {
+  background-color: #f1f3f4;
+  border-radius: 0.25rem;
+  color: #e83e8c;
+  font-size: 0.85em;
+  padding: 0.25em 0.3em;
+}
+
+.ProseMirror pre code {
+  background: none;
+  color: inherit;
+  font-size: 0.8rem;
+  padding: 0;
+}
+
+/* Blockquote styles */
+.ProseMirror blockquote {
+  border-left: 3px solid #eee;
+  color: #666;
+  font-family: 'Hoefler Text', Georgia, serif;
+  font-style: italic;
+  margin: 0;
+  padding-left: 1em;
+}
+
+/* Horizontal rule styles */
+.ProseMirror hr {
+  border: none;
+  border-top: 2px solid #eee;
+  margin: 2rem 0;
+}
+
+/* Focus styles */
+.ProseMirror:focus {
+  outline: none;
+}
+
+/* Placeholder styles */
+.ProseMirror p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: #adb5bd;
+  pointer-events: none;
+  height: 0;
+}
+
+.ProseMirror .is-empty::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: #adb5bd;
+  pointer-events: none;
+  height: 0;
+}
+
+/* Hidden text visibility toggle */
+.ProseMirror [data-hidden-text="true"] {
+  color: transparent !important;
+  background: transparent !important;
+  font-size: 0 !important;
+}
+
+/* Document structure protection styles */
+.document-page {
+  position: relative;
+  height: 297mm;
+  max-height: 297mm;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+  width: 210mm;
+  box-sizing: border-box;
+  padding: 20mm;
+}
+
+.document-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Ensure document structure is always preserved */
+.ProseMirror .document-page {
+  height: 297mm;
+  max-height: 297mm;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  width: 210mm;
+  box-sizing: border-box;
+  padding: 20mm;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+  transform: none;
+  contain: layout style;
+  isolation: isolate;
+}
+
+/* Prevent deletion of document structure */
+.ProseMirror .document-page:empty::after {
+  content: 'Document page';
+  color: #9ca3af;
+  font-style: italic;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Ensure at least one paragraph exists */
+.ProseMirror .document-page:not(:has(p))::after {
+  content: '';
+  display: block;
+  height: 1.5rem;
+}
+
+/* Cursor boundary constraints */
+.ProseMirror {
+  position: relative;
+}
+
+.ProseMirror .document-page {
+  position: relative;
+  z-index: 1;
+}
+
+/* Prevent cursor from appearing between pages */
+.ProseMirror > .document-page + .document-page {
+  margin-top: 0;
+  position: relative;
+}
+
+/* Make gaps between pages completely non-interactive */
+.ProseMirror > .document-page + .document-page::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background: transparent;
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* Ensure cursor stays within page boundaries and content is contained */
+.ProseMirror .document-page .ProseMirror {
+  height: calc(297mm - 40mm); /* Fixed height for A4 page content area */
+  max-height: calc(297mm - 40mm);
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* Ensure content within pages doesn't overflow horizontally */
+.ProseMirror .document-page .ProseMirror > * {
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Ensure content starts from the top of the page and doesn't overflow upward */
+.ProseMirror .document-page .ProseMirror {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  z-index: 1 !important;
+}
+
+/* Ensure all content elements are properly positioned within page boundaries */
+.ProseMirror .document-page .ProseMirror p,
+.ProseMirror .document-page .ProseMirror h1,
+.ProseMirror .document-page .ProseMirror h2,
+.ProseMirror .document-page .ProseMirror h3,
+.ProseMirror .document-page .ProseMirror h4,
+.ProseMirror .document-page .ProseMirror h5,
+.ProseMirror .document-page .ProseMirror h6,
+.ProseMirror .document-page .ProseMirror div,
+.ProseMirror .document-page .ProseMirror span {
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Simple and clean content positioning */
+.ProseMirror .document-page .ProseMirror > *:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Ensure content stays within page boundaries */
+.ProseMirror .document-page .ProseMirror {
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  min-height: calc(297mm - 40mm);
+  max-height: calc(297mm - 40mm);
+}
+
+/* Ensure the page container has proper positioning */
+.ProseMirror .document-page {
+  position: relative;
+  overflow: hidden;
+  padding: 20mm;
+  box-sizing: border-box;
+}
+
+/* Reset any global styles that might affect content positioning */
+.ProseMirror .document-page .ProseMirror * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure first paragraph starts at the very top */
+.ProseMirror .document-page .ProseMirror p:first-child,
+.ProseMirror .document-page .ProseMirror h1:first-child,
+.ProseMirror .document-page .ProseMirror h2:first-child,
+.ProseMirror .document-page .ProseMirror h3:first-child,
+.ProseMirror .document-page .ProseMirror h4:first-child,
+.ProseMirror .document-page .ProseMirror h5:first-child,
+.ProseMirror .document-page .ProseMirror h6:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  position: relative;
+  top: 0;
+}
+
+/* ABSOLUTE A4 page boundaries - content CANNOT escape */
+.ProseMirror .document-page {
+  position: relative !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  height: 297mm !important;
+  max-height: 297mm !important;
+  width: 210mm !important;
+  max-width: 210mm !important;
+  box-sizing: border-box !important;
+  padding: 20mm !important;
+  margin: 0 auto 20px auto !important;
+  background: #fff !important;
+  border: 1px solid #e5e7eb !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+  clip-path: inset(0 0 0 0) !important;
+  isolation: isolate !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Content area with STRICT A4 boundaries */
+.ProseMirror .document-page .ProseMirror {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  height: calc(297mm - 40mm) !important;
+  max-height: calc(297mm - 40mm) !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  clip-path: inset(0 0 0 0) !important;
+  isolation: isolate !important;
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* All content elements must stay within boundaries - ABSOLUTE CONTAINMENT */
+.ProseMirror .document-page .ProseMirror > * {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  box-sizing: border-box !important;
+  contain: layout !important;
+}
+
+/* Prevent any content from going above the page */
+.ProseMirror .document-page .ProseMirror > *:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  position: relative !important;
+  top: 0 !important;
+  transform: translateY(0) !important;
+}
+
+/* Prevent any content from going below the page */
+.ProseMirror .document-page .ProseMirror > *:last-child {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  position: relative !important;
+  bottom: auto !important;
+  transform: translateY(0) !important;
+}
+
+/* Force all text content to stay within bounds */
+.ProseMirror .document-page .ProseMirror p,
+.ProseMirror .document-page .ProseMirror h1,
+.ProseMirror .document-page .ProseMirror h2,
+.ProseMirror .document-page .ProseMirror h3,
+.ProseMirror .document-page .ProseMirror h4,
+.ProseMirror .document-page .ProseMirror h5,
+.ProseMirror .document-page .ProseMirror h6,
+.ProseMirror .document-page .ProseMirror div,
+.ProseMirror .document-page .ProseMirror span {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  line-height: normal !important;
+}
+
+/* Additional strict containment rules */
+.ProseMirror .document-page {
+  clip-path: inset(0 0 0 0) !important;
+  contain: strict !important;
+  isolation: isolate !important;
+}
+
+.ProseMirror .document-page .ProseMirror {
+  clip-path: inset(0 0 0 0) !important;
+  contain: strict !important;
+  isolation: isolate !important;
+}
+
+/* Ensure spaces and line breaks don't cause overflow */
+.ProseMirror .document-page .ProseMirror br {
+  line-height: normal !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Prevent any element from causing vertical overflow */
+.ProseMirror .document-page .ProseMirror * {
+  max-height: none !important;
+  min-height: 0 !important;
+  position: relative !important;
+  top: auto !important;
+  bottom: auto !important;
+  transform: none !important;
+}
+
+/* Force content to wrap within page boundaries */
+.ProseMirror .document-page .ProseMirror {
+  white-space: normal !important;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+/* STRICT A4 HEIGHT ENFORCEMENT - Prevent any content from going outside */
+.ProseMirror .document-page {
+  position: relative !important;
+  height: 297mm !important;
+  max-height: 297mm !important;
+  min-height: 297mm !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding-top: 20mm !important;
+  padding-bottom: 20mm !important;
+  padding-left: 20mm !important;
+  padding-right: 20mm !important;
+  box-sizing: border-box !important;
+}
+
+.ProseMirror .document-page .ProseMirror {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  height: calc(297mm - 40mm) !important;
+  max-height: calc(297mm - 40mm) !important;
+  min-height: calc(297mm - 40mm) !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Prevent any element from exceeding page boundaries */
+.ProseMirror .document-page .ProseMirror > * {
+  max-height: 100% !important;
+  overflow: hidden !important;
+  contain: layout !important;
+}
+
+/* Force line breaks when content would exceed page height */
+.ProseMirror .document-page .ProseMirror p,
+.ProseMirror .document-page .ProseMirror h1,
+.ProseMirror .document-page .ProseMirror h2,
+.ProseMirror .document-page .ProseMirror h3,
+.ProseMirror .document-page .ProseMirror h4,
+.ProseMirror .document-page .ProseMirror h5,
+.ProseMirror .document-page .ProseMirror h6 {
+  max-height: none !important;
+  overflow: visible !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  hyphens: auto !important;
+}
+
+/* CRITICAL: Prevent content from going above A4 page boundaries */
+.ProseMirror .document-page .ProseMirror {
+  position: absolute !important;
+  top: 20mm !important;
+  left: 20mm !important;
+  right: 20mm !important;
+  bottom: 20mm !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  clip-path: inset(0 0 0 0) !important;
+  height: calc(297mm - 40mm) !important;
+  max-height: calc(297mm - 40mm) !important;
+  width: calc(210mm - 40mm) !important;
+  max-width: calc(210mm - 40mm) !important;
+  box-sizing: border-box !important;
+}
+
+/* Ensure first content element starts at the very top */
+.ProseMirror .document-page .ProseMirror > *:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  position: relative !important;
+  top: 0 !important;
+  transform: translateY(0) !important;
+}
+
+/* Prevent any content from shifting upward */
+.ProseMirror .document-page .ProseMirror > * {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  transform: none !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+/* Force all text content to stay within bounds */
+.ProseMirror .document-page .ProseMirror p,
+.ProseMirror .document-page .ProseMirror h1,
+.ProseMirror .document-page .ProseMirror h2,
+.ProseMirror .document-page .ProseMirror h3,
+.ProseMirror .document-page .ProseMirror h4,
+.ProseMirror .document-page .ProseMirror h5,
+.ProseMirror .document-page .ProseMirror h6,
+.ProseMirror .document-page .ProseMirror div,
+.ProseMirror .document-page .ProseMirror span {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  line-height: normal !important;
+}
+
+/* ULTIMATE CONTAINMENT - Prevent any content from escaping */
+.ProseMirror .document-page {
+  position: relative !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  isolation: isolate !important;
+  clip-path: inset(0 0 0 0) !important;
+  mask: none !important;
+  -webkit-mask: none !important;
+}
+
+.ProseMirror .document-page .ProseMirror {
+  position: absolute !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  isolation: isolate !important;
+  clip-path: inset(0 0 0 0) !important;
+  mask: none !important;
+  -webkit-mask: none !important;
+}
+
+/* Force all child elements to stay within bounds */
+.ProseMirror .document-page .ProseMirror * {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
+  box-sizing: border-box !important;
+  contain: layout !important;
+  overflow: visible !important;
+  clip-path: none !important;
+}
+
+/* Prevent any element from going outside the page */
+.ProseMirror .document-page .ProseMirror > *:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  position: relative !important;
+  top: 0 !important;
+  transform: translateY(0) !important;
+}
+
+.ProseMirror .document-page .ProseMirror > *:last-child {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  position: relative !important;
+  bottom: auto !important;
+  transform: translateY(0) !important;
+}
+
+/* Removed page expansion rules - pages now have fixed A4 height */
+
+/* Add visual indicator for page boundaries */
+.ProseMirror .document-page::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  border: 1px solid transparent;
+  z-index: 0;
+}
+
+/* Removed hover effect that was causing unwanted horizontal lines */
+
+/* Cursor positioning feedback */
+.ProseMirror .document-page:focus-within {
+  box-shadow: 0 0 0 2px #3b82f6;
+}
+
+/* Prevent text selection outside page boundaries */
+.ProseMirror .document-page {
+  -webkit-user-select: text;
+     -moz-user-select: text;
+          user-select: text;
+}
+
+/* Make the area between pages completely non-interactive */
+.ProseMirror {
+  position: relative;
+}
+
+.ProseMirror::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: transparent;
+  pointer-events: none;
+  z-index: 5;
+}
+
+/* Ensure pages are properly spaced and isolated */
+.ProseMirror .document-page {
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 10;
+}
+
+.ProseMirror .document-page:last-child {
+  margin-bottom: 0;
+}
+
+/* Content containment within pages */
+.ProseMirror .document-page p,
+.ProseMirror .document-page h1,
+.ProseMirror .document-page h2,
+.ProseMirror .document-page h3,
+.ProseMirror .document-page h4,
+.ProseMirror .document-page h5,
+.ProseMirror .document-page h6,
+.ProseMirror .document-page div,
+.ProseMirror .document-page span {
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+/* Prevent content from overflowing horizontally */
+.ProseMirror .document-page * {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Ensure images and other elements fit within page */
+.ProseMirror .document-page img,
+.ProseMirror .document-page table,
+.ProseMirror .document-page pre {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Removed scrollbar styles - content should be visible, not scrollable */
+
+/* Removed conflicting CSS - pages now have fixed A4 dimensions */
+
+/* Removed page expansion CSS - pages now have fixed A4 dimensions */
+
+/* ULTIMATE LOCK - Prevent any content from moving outside A4 boundaries */
+.ProseMirror .document-page {
+  position: relative !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  height: 297mm !important;
+  max-height: 297mm !important;
+  min-height: 297mm !important;
+  width: 210mm !important;
+  max-width: 210mm !important;
+  padding: 20mm !important;
+  box-sizing: border-box !important;
+  isolation: isolate !important;
+  clip-path: inset(0 0 0 0) !important;
+}
+
+.ProseMirror .document-page .ProseMirror {
+  position: absolute !important;
+  top: 20mm !important;
+  left: 20mm !important;
+  right: 20mm !important;
+  bottom: 20mm !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  height: calc(297mm - 40mm) !important;
+  max-height: calc(297mm - 40mm) !important;
+  min-height: calc(297mm - 40mm) !important;
+  width: calc(210mm - 40mm) !important;
+  max-width: calc(210mm - 40mm) !important;
+  box-sizing: border-box !important;
+  isolation: isolate !important;
+  clip-path: inset(0 0 0 0) !important;
+}
+
+/* Lock all content elements to prevent any movement */
+.ProseMirror .document-page .ProseMirror > * {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  overflow: visible !important;
+  contain: layout !important;
+}
+
+/* Force first element to start at absolute top */
+.ProseMirror .document-page .ProseMirror > *:first-child {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+}
+
+/* ULTIMATE A4 BOUNDARY LOCK - Prevent any content from escaping */
+.ProseMirror .document-page {
+  position: relative !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  height: 297mm !important;
+  max-height: 297mm !important;
+  min-height: 297mm !important;
+  width: 210mm !important;
+  max-width: 210mm !important;
+  padding: 20mm !important;
+  box-sizing: border-box !important;
+  isolation: isolate !important;
+  clip-path: inset(0 0 0 0) !important;
+  display: block !important;
+}
+
+.ProseMirror .document-page .ProseMirror {
+  position: absolute !important;
+  top: 20mm !important;
+  left: 20mm !important;
+  right: 20mm !important;
+  bottom: 20mm !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  height: calc(297mm - 40mm) !important;
+  max-height: calc(297mm - 40mm) !important;
+  min-height: calc(297mm - 40mm) !important;
+  width: calc(210mm - 40mm) !important;
+  max-width: calc(210mm - 40mm) !important;
+  box-sizing: border-box !important;
+  isolation: isolate !important;
+  clip-path: inset(0 0 0 0) !important;
+  display: block !important;
+}
+
+/* Lock all content elements to prevent any movement */
+.ProseMirror .document-page .ProseMirror > * {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  overflow: visible !important;
+  contain: layout !important;
+  display: block !important;
+}
+
+/* Force first element to start at absolute top */
+.ProseMirror .document-page .ProseMirror > *:first-child {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  display: block !important;
+}
+
+/* Prevent any text from going outside boundaries */
+.ProseMirror .document-page .ProseMirror p,
+.ProseMirror .document-page .ProseMirror h1,
+.ProseMirror .document-page .ProseMirror h2,
+.ProseMirror .document-page .ProseMirror h3,
+.ProseMirror .document-page .ProseMirror h4,
+.ProseMirror .document-page .ProseMirror h5,
+.ProseMirror .document-page .ProseMirror h6,
+.ProseMirror .document-page .ProseMirror div,
+.ProseMirror .document-page .ProseMirror span {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  line-height: normal !important;
+  display: block !important;
+}
+
+/* FINAL ULTIMATE LOCK - Prevent any content from escaping A4 boundaries */
+.ProseMirror .document-page {
+  position: relative !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  height: 297mm !important;
+  max-height: 297mm !important;
+  min-height: 297mm !important;
+  width: 210mm !important;
+  max-width: 210mm !important;
+  padding: 20mm !important;
+  box-sizing: border-box !important;
+  isolation: isolate !important;
+  clip-path: inset(0 0 0 0) !important;
+  display: block !important;
+  margin: 0 auto 20px auto !important;
+  background: #fff !important;
+  border: 1px solid #e5e7eb !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+}
+
+.ProseMirror .document-page .ProseMirror {
+  position: absolute !important;
+  top: 20mm !important;
+  left: 20mm !important;
+  right: 20mm !important;
+  bottom: 20mm !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  height: calc(297mm - 40mm) !important;
+  max-height: calc(297mm - 40mm) !important;
+  min-height: calc(297mm - 40mm) !important;
+  width: calc(210mm - 40mm) !important;
+  max-width: calc(210mm - 40mm) !important;
+  box-sizing: border-box !important;
+  isolation: isolate !important;
+  clip-path: inset(0 0 0 0) !important;
+  display: block !important;
+}
+
+/* Lock all content elements to prevent any movement */
+.ProseMirror .document-page .ProseMirror > * {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  overflow: visible !important;
+  contain: layout !important;
+  display: block !important;
+}
+
+/* Force first element to start at absolute top */
+.ProseMirror .document-page .ProseMirror > *:first-child {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  display: block !important;
+}
+
+/* Prevent any text from going outside boundaries */
+.ProseMirror .document-page .ProseMirror p,
+.ProseMirror .document-page .ProseMirror h1,
+.ProseMirror .document-page .ProseMirror h2,
+.ProseMirror .document-page .ProseMirror h3,
+.ProseMirror .document-page .ProseMirror h4,
+.ProseMirror .document-page .ProseMirror h5,
+.ProseMirror .document-page .ProseMirror h6,
+.ProseMirror .document-page .ProseMirror div,
+.ProseMirror .document-page .ProseMirror span {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  line-height: normal !important;
+  display: block !important;
+}
+
+/* ULTIMATE CONTAINMENT - Prevent any content from escaping */
+.ProseMirror .document-page {
+  position: relative !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  isolation: isolate !important;
+  clip-path: inset(0 0 0 0) !important;
+  mask: none !important;
+  -webkit-mask: none !important;
+}
+
+.ProseMirror .document-page .ProseMirror {
+  position: absolute !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  isolation: isolate !important;
+  clip-path: inset(0 0 0 0) !important;
+  mask: none !important;
+  -webkit-mask: none !important;
+}
+
+/* Force all child elements to stay within bounds */
+.ProseMirror .document-page .ProseMirror * {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
+  box-sizing: border-box !important;
+  contain: layout !important;
+  overflow: visible !important;
+  clip-path: none !important;
+  isolation: auto !important;
+}
+
+/* ULTIMATE CONTENT LOCK - Prevent any content from escaping */
+.ProseMirror .document-page .ProseMirror * {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
+  box-sizing: border-box !important;
+  contain: layout !important;
+  overflow: visible !important;
+  clip-path: none !important;
+  isolation: auto !important;
+  display: block !important;
+}
+
+/* CURSOR AND SELECTION PROTECTION */
+.ProseMirror .document-page .ProseMirror .ProseMirror-cursor,
+.ProseMirror .document-page .ProseMirror .ProseMirror-selection,
+.ProseMirror .document-page .ProseMirror .ProseMirror-selectionnode {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  overflow: visible !important;
+  contain: layout !important;
+  display: block !important;
+}
+
+/* TEXT ELEMENT PROTECTION */
+.ProseMirror .document-page .ProseMirror p,
+.ProseMirror .document-page .ProseMirror h1,
+.ProseMirror .document-page .ProseMirror h2,
+.ProseMirror .document-page .ProseMirror h3,
+.ProseMirror .document-page .ProseMirror h4,
+.ProseMirror .document-page .ProseMirror h5,
+.ProseMirror .document-page .ProseMirror h6,
+.ProseMirror .document-page .ProseMirror div,
+.ProseMirror .document-page .ProseMirror span,
+.ProseMirror .document-page .ProseMirror strong,
+.ProseMirror .document-page .ProseMirror em,
+.ProseMirror .document-page .ProseMirror u,
+.ProseMirror .document-page .ProseMirror code {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  line-height: normal !important;
+  display: block !important;
+  overflow: visible !important;
+  contain: layout !important;
+}
+
+/* ULTIMATE A4 BOUNDARY LOCK - Prevent any content from escaping */
+.ProseMirror .document-page {
+  position: relative !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  height: 297mm !important;
+  max-height: 297mm !important;
+  min-height: 297mm !important;
+  width: 210mm !important;
+  max-width: 210mm !important;
+  padding: 20mm !important;
+  box-sizing: border-box !important;
+  isolation: isolate !important;
+  clip-path: inset(0 0 0 0) !important;
+  display: block !important;
+  margin: 0 auto 20px auto !important;
+  background: #fff !important;
+  border: 1px solid #e5e7eb !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+}
+
+.ProseMirror .document-page .ProseMirror {
+  position: absolute !important;
+  top: 20mm !important;
+  left: 20mm !important;
+  right: 20mm !important;
+  bottom: 20mm !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  height: calc(297mm - 40mm) !important;
+  max-height: calc(297mm - 40mm) !important;
+  min-height: calc(297mm - 40mm) !important;
+  width: calc(210mm - 40mm) !important;
+  max-width: calc(210mm - 40mm) !important;
+  box-sizing: border-box !important;
+  isolation: isolate !important;
+  clip-path: inset(0 0 0 0) !important;
+  display: block !important;
+}
+
+/* Lock all content elements to prevent any movement */
+.ProseMirror .document-page .ProseMirror > * {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  overflow: visible !important;
+  contain: layout !important;
+  display: block !important;
+}
+
+/* Force first element to start at absolute top */
+.ProseMirror .document-page .ProseMirror > *:first-child {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  display: block !important;
+}
+
+/* Prevent any text from going outside boundaries */
+.ProseMirror .document-page .ProseMirror p,
+.ProseMirror .document-page .ProseMirror h1,
+.ProseMirror .document-page .ProseMirror h2,
+.ProseMirror .document-page .ProseMirror h3,
+.ProseMirror .document-page .ProseMirror h4,
+.ProseMirror .document-page .ProseMirror h5,
+.ProseMirror .document-page .ProseMirror h6,
+.ProseMirror .document-page .ProseMirror div,
+.ProseMirror .document-page .ProseMirror span {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  line-height: normal !important;
+  display: block !important;
+}
+
+/* ULTIMATE CONTAINMENT - Prevent any content from escaping */
+.ProseMirror .document-page {
+  position: relative !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  isolation: isolate !important;
+  clip-path: inset(0 0 0 0) !important;
+  mask: none !important;
+  -webkit-mask: none !important;
+}
+
+.ProseMirror .document-page .ProseMirror {
+  position: absolute !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  isolation: isolate !important;
+  clip-path: inset(0 0 0 0) !important;
+  mask: none !important;
+  -webkit-mask: none !important;
+}
+
+/* Force all child elements to stay within bounds */
+.ProseMirror .document-page .ProseMirror * {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
+  box-sizing: border-box !important;
+  contain: layout !important;
+  overflow: visible !important;
+  clip-path: none !important;
+  isolation: auto !important;
+}
+
+/* ULTIMATE CONTENT LOCK - Prevent any content from escaping */
+.ProseMirror .document-page .ProseMirror * {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
+  box-sizing: border-box !important;
+  contain: layout !important;
+  overflow: visible !important;
+  clip-path: none !important;
+  isolation: auto !important;
+  display: block !important;
+}
+
+/* CURSOR AND SELECTION PROTECTION */
+.ProseMirror .document-page .ProseMirror .ProseMirror-cursor,
+.ProseMirror .document-page .ProseMirror .ProseMirror-selection,
+.ProseMirror .document-page .ProseMirror .ProseMirror-selectionnode {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  overflow: visible !important;
+  contain: layout !important;
+  display: block !important;
+}
+
+/* TEXT ELEMENT PROTECTION */
+.ProseMirror .document-page .ProseMirror p,
+.ProseMirror .document-page .ProseMirror h1,
+.ProseMirror .document-page .ProseMirror h2,
+.ProseMirror .document-page .ProseMirror h3,
+.ProseMirror .document-page .ProseMirror h4,
+.ProseMirror .document-page .ProseMirror h5,
+.ProseMirror .document-page .ProseMirror h6,
+.ProseMirror .document-page .ProseMirror div,
+.ProseMirror .document-page .ProseMirror span,
+.ProseMirror .document-page .ProseMirror strong,
+.ProseMirror .document-page .ProseMirror em,
+.ProseMirror .document-page .ProseMirror u,
+.ProseMirror .document-page .ProseMirror code {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  line-height: normal !important;
+  display: block !important;
+  overflow: visible !important;
+  contain: layout !important;
+}
+
+/* New Grid Tables - theme applies to all rows */
+.ProseMirror table.table-style-grid-11 th,
+.ProseMirror table.table-style-grid-11 td {
+  background-color: #e6effa; /* light blue */
+  color: #1f3b63;
+  border: 1px solid #5b9bd5;
+  padding: 8px;
+}
+
+.ProseMirror table.table-style-grid-12 th,
+.ProseMirror table.table-style-grid-12 td {
+  background-color: #eaf3e6; /* light green */
+  color: #214121;
+  border: 1px solid #70ad47;
+  padding: 8px;
+}
+
+.ProseMirror table.table-style-grid-13 th,
+.ProseMirror table.table-style-grid-13 td {
+  background-color: #efefef; /* light gray */
+  color: #333;
+  border: 1px solid #a5a5a5;
+  padding: 8px;
+}
+
+.ProseMirror table.table-style-grid-14 th,
+.ProseMirror table.table-style-grid-14 td {
+  background-color: #fff4cc; /* light yellow */
+  color: #5a4300;
+  border: 1px solid #ffc000;
+  padding: 8px;
+}
+
+/* New List Tables - theme applies to all rows with bottom borders */
+.ProseMirror table.table-style-list-9 th,
+.ProseMirror table.table-style-list-9 td {
+  background-color: #e6effa;
+  color: #1f3b63;
+  padding: 8px;
+  border-bottom: 1px solid #5b9bd5;
+}
+
+.ProseMirror table.table-style-list-10 th,
+.ProseMirror table.table-style-list-10 td {
+  background-color: #eaf3e6;
+  color: #214121;
+  padding: 8px;
+  border-bottom: 1px solid #70ad47;
+}
+
+.ProseMirror table.table-style-list-11 th,
+.ProseMirror table.table-style-list-11 td {
+  background-color: #efefef;
+  color: #333;
+  padding: 8px;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+.ProseMirror table.table-style-list-12 th,
+.ProseMirror table.table-style-list-12 td {
+  background-color: #fff4cc;
+  color: #5a4300;
+  padding: 8px;
+  border-bottom: 1px solid #ffc000;
+}
+
+/* New Plain Table - subtle full-row shading */
+.ProseMirror table.table-style-plain-7 th,
+.ProseMirror table.table-style-plain-7 td {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Comment highlight styles */
+.ProseMirror .tiptap-comment--active {
+  background-color: rgba(255, 229, 100, 0.6); /* yellow highlight */
+  border-bottom: 1px solid rgba(234, 179, 8, 0.8);
+}
+.ProseMirror .tiptap-comment--resolved {
+  background-color: rgba(156, 163, 175, 0.25); /* gray light */
+  border-bottom: 1px solid rgba(156, 163, 175, 0.5);
+}
+
+/* Read Aloud highlighting styles */
+.read-aloud-highlight {
+  background-color: rgba(255, 255, 0, 0.3) !important; /* Light yellow for sentence */
+}
+
+.read-aloud-current-word {
+  background-color: rgba(255, 255, 0, 0.6) !important; /* Darker yellow for current word */
+  font-weight: 500;
+  padding: 2px 1px;
+  border-radius: 2px;
+  transition: background-color 0.1s ease;
+}
+
+.read-aloud-sentence-highlight {
+  background-color: rgba(255, 255, 0, 0.15) !important; /* Very light yellow for sentence */
+}
+
+/* Ensure highlight marks are visible and prominent */
+.ProseMirror mark[data-type="highlight"] {
+  background-color: rgba(255, 255, 0, 0.7) !important;
+  padding: 2px 1px !important;
+  border-radius: 2px !important;
+  font-weight: 500 !important;
+  transition: background-color 0.15s ease !important;
+}
+
+/* When read aloud is active, show visual feedback */
+.ProseMirror.read-aloud-active {
+  position: relative;
+}
+
+/* Make sure the highlight is visible over other styles */
+.ProseMirror.read-aloud-active mark[data-type="highlight"] {
+  background-color: rgba(255, 255, 0, 0.8) !important;
+  box-shadow: 0 0 3px rgba(255, 255, 0, 0.5) !important;
+  z-index: 10 !important;
+  position: relative !important;
+}
+
+/* Date/Time insertion styling - using CSS class to avoid TipTap color marks */
+.ProseMirror .date-time-insert {
+  background: #e3f2fd !important;
+  padding: 2px 6px !important;
+  border-radius: 3px !important;
+  font-family: monospace !important;
+  border: 1px solid #2196f3 !important;
+  color: inherit !important; /* Use inherited color, not blue */
+  display: inline-block !important;
+}
+.last\:border-r-0:last-child {
+  border-right-width: 0px;
+}
+.hover\:scale-110:hover {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:border-blue-400:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(96 165 250 / var(--tw-border-opacity, 1));
+}
+.hover\:border-gray-400:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity, 1));
+}
+.hover\:bg-blue-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 234 254 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-blue-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-blue-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 246 255 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-blue-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-blue-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-gray-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-gray-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-gray-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-gray-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-gray-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-green-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(187 247 208 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-green-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-green-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 128 61 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-purple-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 213 255 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-purple-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 51 234 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-red-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-red-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-yellow-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(202 138 4 / var(--tw-bg-opacity, 1));
+}
+.hover\:text-gray-700:hover {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
+}
+.hover\:text-gray-800:hover {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity, 1));
+}
+.hover\:text-gray-900:hover {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity, 1));
+}
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.focus\:ring-2:focus {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.focus\:ring-blue-500:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity, 1));
+}
+.disabled\:cursor-not-allowed:disabled {
+  cursor: not-allowed;
+}
+.disabled\:bg-gray-300:disabled {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1));
+}
+.disabled\:bg-gray-400:disabled {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity, 1));
+}
+.disabled\:opacity-50:disabled {
+  opacity: 0.5;
+}
+.group:hover .group-hover\:bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
+}
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+@media (min-width: 640px) {
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 768px) {
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 1024px) {
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/cursor-text-boundary.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+/* ULTIMATE CURSOR AND TEXT BOUNDARY LOCK - Prevent cursor and text from going outside A4 */
+.ProseMirror .document-page .ProseMirror {
+  position: absolute !important;
+  top: 20mm !important;
+  left: 20mm !important;
+  right: 20mm !important;
+  bottom: 20mm !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  contain: strict !important;
+  height: calc(297mm - 40mm) !important;
+  max-height: calc(297mm - 40mm) !important;
+  min-height: calc(297mm - 40mm) !important;
+  width: calc(210mm - 40mm) !important;
+  max-width: calc(210mm - 40mm) !important;
+  box-sizing: border-box !important;
+  isolation: isolate !important;
+  clip-path: inset(0 0 0 0) !important;
+  display: block !important;
+}
+
+/* Force first element to start at absolute top */
+.ProseMirror .document-page .ProseMirror > *:first-child {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  display: block !important;
+}
+
+/* Lock all content elements to prevent any movement */
+.ProseMirror .document-page .ProseMirror > * {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  overflow: visible !important;
+  contain: layout !important;
+  display: block !important;
+}
+
+/* CURSOR BOUNDARY PROTECTION - Prevent cursor from going outside */
+.ProseMirror .document-page .ProseMirror .ProseMirror-cursor,
+.ProseMirror .document-page .ProseMirror .ProseMirror-selection,
+.ProseMirror .document-page .ProseMirror .ProseMirror-selectionnode {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  overflow: visible !important;
+  contain: layout !important;
+  display: block !important;
+}
+
+/* TEXT BOUNDARY PROTECTION - Force all text to stay within bounds */
+.ProseMirror .document-page .ProseMirror p,
+.ProseMirror .document-page .ProseMirror h1,
+.ProseMirror .document-page .ProseMirror h2,
+.ProseMirror .document-page .ProseMirror h3,
+.ProseMirror .document-page .ProseMirror h4,
+.ProseMirror .document-page .ProseMirror h5,
+.ProseMirror .document-page .ProseMirror h6,
+.ProseMirror .document-page .ProseMirror div,
+.ProseMirror .document-page .ProseMirror span,
+.ProseMirror .document-page .ProseMirror strong,
+.ProseMirror .document-page .ProseMirror em,
+.ProseMirror .document-page .ProseMirror u,
+.ProseMirror .document-page .ProseMirror code {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  line-height: normal !important;
+  display: block !important;
+  overflow: visible !important;
+  contain: layout !important;
+}
+
+/* ULTIMATE BOUNDARY LOCK - Prevent any element from escaping */
+.ProseMirror .document-page .ProseMirror * {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
+  box-sizing: border-box !important;
+  contain: layout !important;
+  overflow: visible !important;
+  clip-path: none !important;
+  isolation: auto !important;
+  display: block !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[12].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.js","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* cyrillic-ext */
+@font-face {
+  font-family: '__Inter_f367f3';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/ba9851c3c22cd980-s.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: '__Inter_f367f3';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/21350d82a1f187e9-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: '__Inter_f367f3';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/c5fe6dc8356a8c31-s.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: '__Inter_f367f3';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/19cfc7226ec3afaa-s.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: '__Inter_f367f3';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/df0a9ae256c0569c-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Inter_f367f3';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/8e9860b6e62d6359-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Inter_f367f3';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/e4af272ccee01ff0-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Inter_Fallback_f367f3';src: local("Arial");ascent-override: 90.20%;descent-override: 22.48%;line-gap-override: 0.00%;size-adjust: 107.40%
+}.__className_f367f3 {font-family: '__Inter_f367f3', '__Inter_Fallback_f367f3';font-style: normal
+}
+
